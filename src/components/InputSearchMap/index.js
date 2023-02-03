@@ -131,7 +131,7 @@ const InputSearchMap = ({ location, setLocation }) => {
           itemLayout="horizontal"
           dataSource={searchHistories}
           renderItem={(item) =>
-            item.search.includes(searchHistory) && (
+            item.search.toLowerCase().includes(searchHistory.toLowerCase()) && (
               <List.Item
                 actions={[
                   <Button
