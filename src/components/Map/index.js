@@ -1,4 +1,3 @@
-// import GoogleMapReact from "google-map-react";
 import {
   GoogleMap,
   InfoWindow,
